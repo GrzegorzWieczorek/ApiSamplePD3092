@@ -18,7 +18,7 @@ namespace ApiSample.Controllers
     {
         private readonly IExampleService _service;
 
-        // ctor + TAB + TAB
+        // ctor + TAB + TAB skrót
         public GuestsController(IExampleService service)
         {
             _service = service;

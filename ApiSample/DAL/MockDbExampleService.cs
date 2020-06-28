@@ -16,8 +16,8 @@ namespace ApiSample.DAL
                 new Gosc()
                 {
                     IdGosc = 1,
-                    Imie = "Marcin",
-                    Nazwisko = "Niewiński",
+                    Imie = "Grzegorz",
+                    Nazwisko = "Wieczorek",
                     ProcentRabatu = 30
                 },
                 new Gosc()

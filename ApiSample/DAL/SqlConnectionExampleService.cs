@@ -10,7 +10,7 @@ namespace ApiSample.DAL
     public class SqlConnectionExampleService : IExampleService
     {
         //Proszę tutaj wpisać swój connection string
-        private readonly string ConnStr = @"Data Source=db-mssql.pjwstk.edu.pl;Initial Catalog=yoshi;Integrated Security=True;";
+        private readonly string ConnStr = @"Data Source=db-mssql.pjwstk.edu.pl;Initial Catalog=pd3092;Integrated Security=True;";
 
         public ICollection<GuestResponseDto> GetGuestsCollection(string lastName)
         {
